@@ -10,7 +10,7 @@ while True:
     guesses += 1
 
     if num == random_number:
-        print("Congrats!", num, "is correct number. you have guess the answer in just", guesses, "time.")
+        print("Congrats!", num, "is correct number. you have guessed the answer in just", guesses, "time.")
         break
     elif num < random_number:
         print("hints. just above than your input")
